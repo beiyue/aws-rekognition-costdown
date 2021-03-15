@@ -1,5 +1,4 @@
 # AWS Rekognition成本优化方案
-using images merge solution for AWS Rekognition optimization costs
 使用图片拼接降低Rekognition API 调用次数从而优化成本
 
 从视频文件中抽取关键帧并转为图片
