@@ -7,16 +7,19 @@ sudo ./generate_thumbnails.sh videoplayback.mp4 <THUMBNAILS_PATH>
 ```
 ![](docs/gengerate_thumbnails.png)
 
+#### 将4张图片横向拼接成一张大图
 ```
-#将4张图片横向拼接成一张大图
+
 sudo python3 mergeImages.py "<THUMBNAILS_PATH>"
+
 ```
 ![](docs/merge-images.png)
 
-
+#### 将拼接后的大图请求AWS Rekogntion detect_labels API， 可用于人形/人脸/宠物/口罩检测等
 ```
-#将拼接后的大图请求AWS Rekogntion detect_labels API， 可用于人形/人脸/宠物/口罩检测等
-sudo python3 mergeImages.py "<MERGE_PATH>"
+
+sudo python3 rek_person_detect_test.py "<MERGE_PATH>"
+
 ```
 ![](docs/rek-detect-person.png)
 
