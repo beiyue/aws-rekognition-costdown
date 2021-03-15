@@ -28,4 +28,5 @@ sudo python3 mergeImages.py "<THUMBNAILS_PATH>"
 sudo python3 rek_person_detect_test.py "<MERGE_PATH>"
 
 ![](docs/rek-detect-person.png)
+![](docs/detect_results.png)
 
