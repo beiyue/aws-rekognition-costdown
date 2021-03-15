@@ -8,6 +8,7 @@ sudo ./generate_thumbnails.sh videoplayback.mp4 <THUMBNAILS_PATH>
 ![](docs/gengerate_thumbnails.png)
 
 抽帧图片：
+
 ![](docs/image-001.jpg)
 
 ![](docs/image-002.jpg)
