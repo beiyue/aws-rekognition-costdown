@@ -2,7 +2,7 @@
 使用图片拼接降低Rekognition API 调用次数从而优化成本
 
 ```
-#从视频文件中抽取关键帧并转为图片
+###从视频文件中抽取关键帧并转为图片
 sudo ./generate_thumbnails.sh videoplayback.mp4 <THUMBNAILS_PATH>
 ```
 ![](docs/gengerate_thumbnails.png)
