@@ -9,9 +9,7 @@ sudo ./generate_thumbnails.sh videoplayback.mp4 <THUMBNAILS_PATH>
 
 抽帧图片：
 
-![](docs/image-001.jpg)
-
-![](docs/image-002.jpg)
+![](docs/image-001.jpg) ![](docs/image-002.jpg)
 
 #### 将4张图片横向拼接成一张大图
 
