@@ -5,17 +5,17 @@
 
 sudo ./generate_thumbnails.sh videoplayback.mp4 <THUMBNAILS_PATH>
 
-![](docs/gengerate_thumbnails.png)
+![](./docs/gengerate_thumbnails.png)
 
 抽帧图片：
 
-![](docs/image-001.jpg) 
+![](./docs/image-001.jpg) 
 
 #### 将4张图片横向拼接成一张大图
 
 sudo python3 mergeImages.py "<THUMBNAILS_PATH>"
 
-![](docs/merge-images.png)
+![](./docs/merge-images.png)
 
 拼接图例：
 ![](docs/merge0706.jpg)
@@ -24,7 +24,7 @@ sudo python3 mergeImages.py "<THUMBNAILS_PATH>"
 
 sudo python3 rek_person_detect_test.py "<MERGE_PATH>"
 
-![](docs/rek-detect-person.png)
+![](./docs/rek-detect-person.png)
 
 效果展示：
 ![](docs/detect_results.png)
